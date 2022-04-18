@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <table border="1" width="700px" height="500px">
+    <thead>
+      <tr align="center">
+        <th colspan="2">자유게시판 글 작성하기</th>
+      </tr>
+      <tr>
+        <td width="14%" align="center">
+          <select name="category">
+          <option value="뉴스">뉴스</option>
+          <option value="스포츠">스포츠</option>
+          <option value="연애">연애</option>
+          </select>
+        </td>
+        <td><input type="text" placeholder="글 제목을 입력하세요." style="width: 450px;"></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2"><textarea placeholder="글 내용을 입력하세요." style="width: 99%; height: 99%;"></textarea></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan=2 align="right"><input type="button" value="목록으로" onclick="location.href='first.html'"><input type="button" value="작성완료"></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
