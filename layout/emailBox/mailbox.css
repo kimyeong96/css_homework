@@ -1,0 +1,26 @@
+
+table {
+  width: 40%;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+th {
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+td:not(.first){
+  border-top: 1px dotted black;
+}
+
+tr {
+  vertical-align: middle;
+}

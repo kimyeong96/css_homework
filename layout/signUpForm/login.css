@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginForm {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+.id, .password {
+  width: 200px;
+}
+
+
+.password {
+  margin: 10px;
+}
+
+.loginButton {
+  width: 180px;
+  height: 25px;
+  background-color: darkseagreen;
+  color: black;
+  border-radius: 2px;
+  border:1px solid white;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+}
+
+.search:hover {
+  cursor: pointer;
+}
